@@ -1,16 +1,36 @@
-# React + Vite
+# localisation_tracker_website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description  
+`localisation_tracker_website` est une application web permettant de suivre, visualiser et gérer des positions/localisations en temps réel ou à un instant donné (ex. suivi GPS, position d’utilisateurs, marquage de lieux, etc.).  
 
-Currently, two official plugins are available:
+## Fonctionnalités  
+- Affichage d’une carte interactive avec la ou les positions  
+- Enregistrement et historique des localisations  
+- Interface web pour consulter / filtrer les positions  
+- (À adapter selon ce que fait réellement ton projet)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation & mise en route (en local)  
 
-## React Compiler
+### Prérequis  
+- Git  
+- (Éventuellement) un interpréteur / runtime : Node.js, Python, PHP, etc. selon la stack utilisée  
+- (Optionnel) une base de données si ton projet stocke les localisations  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Étapes  
 
-## Expanding the ESLint configuration
+```bash
+# 1. Cloner le dépôt
+git clone https://github.com/Quentin1003/localisation_tracker_website.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Aller dans le dossier du projet  
+cd localisation_tracker_website
+
+# 3. Initialiser les dépendances (si applicable)  
+# Par exemple pour Node.js : npm install  
+# (ou pip install, composer install, selon ta stack)
+
+# 4. Configurer la base de données / variables d’environnement  
+# (ex: fichier .env, config database, clé API, etc.)
+
+# 5. Lancer l’application en mode développement  
+# Par exemple : npm start ou python app.py  
